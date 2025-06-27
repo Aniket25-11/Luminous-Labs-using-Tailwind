@@ -6,7 +6,7 @@ function Navbar() {
     <div className=' h-screen w-full px-4 py-4 text-white '>
       {/* Make the background div cover full screen height */}
       <div 
-        className='flex flex-col justify-between h-full bg-cover bg-center rounded-3xl p-6' 
+        className='flex flex-col justify-between h-full bg-cover bg-center rounded-3xl p-10' 
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         {/* Navigation Section */}
@@ -14,20 +14,21 @@ function Navbar() {
           <nav className='flex justify-between text-center'>
             {/* Logo */}
             <div>
-              <p><span><i className="ri-bubble-chart-fill"></i></span> luminous Labs</p>
+              <p className='text-2xl font-semibold'><span><i className="ri-bubble-chart-fill"></i></span> luminous labs</p>
             </div>
 
             {/* Navlinks */}
-            <div className='flex justify-evenly gap-10 '>
+            <div className='flex justify-evenly gap-12 text-2xl '>
               <p>Technology</p>
               <p>Company</p>
               <p>Commercial</p>
               <p>Blog</p>
+              <p>Pop-up Store</p>
               <p ><span className='rounded-full border-white border-solid border-[1px] px-5 py-1.5 '>Shop</span></p>
             </div>
 
             {/* Cart Icon */}
-            <div className='flex'>
+            <div className='flex gap-4 text-xl font-semibold'>
               <p>EN <span><i className="ri-arrow-drop-down-line"></i></span></p>
               <p>Cart <span><i className="ri-shopping-cart-line rounded-full border-white border-solid border-[1px] p-1.5"></i></span></p>
             </div>
@@ -36,8 +37,8 @@ function Navbar() {
 
         {/* Text Section */}
         <div className='text-center text-white'>
-          <p className='text-gray-400 pt-12'>Red Light Therapy: Proven, safe, and non-invasive</p>
-          <h1 className='text-5xl pb-12 font-bold'>Your Cells, Supercharged</h1>
+          <p className='text-gray-400 pt-12 text-2xl'>Red Light Therapy: Proven, safe, and non-invasive</p>
+          <h1 className='text-8xl pb-12 font-bold'>Your cells, supercharged</h1>
         </div>
       </div>
     </div>
