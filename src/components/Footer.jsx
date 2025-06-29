@@ -39,11 +39,11 @@ const Footer = () => {
             {/* Empty Space  */}
           </div>
         </div>
-        <div className='mb-20'>
+        <div className='mb-40'>
           <p className='text-sm text-gray-500'>These statements have not been evaluated by the Food and Drug Administration. In the European Union, the intended use of our products does <br /> not fall within the scope or article 2 section 1 of 2017/45 MDR. Our products are not intended to diagnose, treat, cure, or prevent any disease.
           </p>
         </div>
-        <div className='flex justify-between items-center text-center mt-20 pt-20'>
+        <div className='flex justify-between items-center text-center mt-20 '>
           <p><i class="ri-paypal-fill text-3xl"></i>Paypal</p>
           <p><i class="ri-mastercard-fill text-3xl"></i>MasterCard</p>
           <p><i class="ri-mastercard-fill text-3xl"></i>MasterCard</p>
