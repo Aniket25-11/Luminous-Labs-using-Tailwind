@@ -8,15 +8,27 @@ const Footer = () => {
           <div className=''>
             <h1 className='text-4xl font-semibold'><span><i className="ri-bubble-chart-fill"></i></span> luminous labs</h1>
             <div className='flex '>
-              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-3xl mt-8 mb-8'><i class="ri-instagram-line"></i></p>
-              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-3xl mt-8 mb-8'><i class="ri-linkedin-fill"></i></p>
-              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-3xl mt-8 mb-8'><i class="ri-facebook-fill"></i></p>
-              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-3xl mt-8 mb-8'><i class="ri-youtube-fill"></i></p>
+              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-4xl mt-8 mb-8'><i class="ri-instagram-line"></i></p>
+              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-4xl mt-8 mb-8'><i class="ri-linkedin-fill"></i></p>
+              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-4xl mt-8 mb-8'><i class="ri-facebook-fill"></i></p>
+              <p className='bg-gray-900 px-3 py-1 m-1 rounded-md text-4xl mt-8 mb-8'><i class="ri-youtube-fill"></i></p>
             </div>
             {/* <div className=''> */}
-            <p><span><i class="ri-user-3-line text-3xl"></i></span>Combined across all platforms: 11k <br /> followers</p>
-            <p><span><i class="ri-notification-2-line text-3xl"></i></span>Daily: 50 requests/DMs</p>
-            <p><span><i class="ri-bar-chart-2-line text-3xl"></i></span>Growth: 2% organic growth monthly</p>
+            <p class="flex items-center mb-4">
+              <span class="mr-3 text-3xl"><i class="ri-user-3-line"></i></span>
+              <span>Combined across all platforms: 11k <br /> followers</span>
+            </p>
+
+            <p class="flex items-center mb-4">
+              <span class="mr-3 text-3xl"><i class="ri-notification-2-line"></i></span>
+              <span>Daily: 50 requests/DMs</span>
+            </p>
+
+            <p class="flex items-center mb-4">
+              <span class="mr-3 text-3xl"><i class="ri-bar-chart-2-line"></i></span>
+              <span>Growth: 2% organic growth monthly</span>
+            </p>
+
             {/* </div> */}
           </div>
           <div>
