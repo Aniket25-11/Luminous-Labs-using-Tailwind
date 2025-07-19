@@ -12,7 +12,7 @@ import Section7 from '../components/Section7'
 function Main() {
   return (
     <>
-    <div className='bg-orange-50 m-0 p-0 box-border'>
+    <div className='bg-[#FCF8F1] m-0 p-0 box-border'>
         {/* <div> */}
         <Navbar />
         <Section2 />
